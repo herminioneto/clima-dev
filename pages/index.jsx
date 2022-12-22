@@ -1,7 +1,13 @@
+import styled from 'styled-components';
+
+const StyledDiv = styled.div`
+  background-color: red;
+`;
+
 export default function homePage() {
   return (
-    <div>
+    <StyledDiv>
       HomePage
-    </div>
+    </StyledDiv>
   );
 };
