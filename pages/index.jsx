@@ -4,7 +4,7 @@ const StyledDiv = styled.div`
   background-color: red;
 `;
 
-export default function homePage() {
+export default function HomePage() {
   return (
     <StyledDiv>
       HomePage
